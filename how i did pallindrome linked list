@@ -1,0 +1,12 @@
+# Intuition
+<!-- making a stack and emptying it was my first intution  -->
+
+# Approach
+<!-- i pushed all linked list element in a stack then i poped after comparing it with the linked list element while coming out it would come in reverse order and which will satisfy the condition for checking pallindrome  -->
+
+# Complexity
+- Time complexity:
+<!-- O(n) -->
+
+- Space complexity:
+<!-- o(n) -->
