@@ -1,0 +1,30 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     struct ListNode *next;
+ * };
+ */
+bool hasCycle(struct ListNode *head) {
+int pos=-1;
+
+if(head==NULL){
+    printf("no element in the linked list");
+    return false;
+}
+if(head->next==NULL){
+    pos=-1;
+    return false;
+}
+struct ListNode * slow;
+struct ListNode * fast;
+slow=head;
+fast=head;
+while(fast!=NULL && fast->next!=NULL){
+    fast=fast->next->next;
+    slow=slow->next;
+    if(fast==slow){
+        return true;
+    }
+}
+return false;}
