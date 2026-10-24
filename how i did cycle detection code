@@ -1,0 +1,4 @@
+INTUTION - my first intution was that to check whether the tails next node is equal to any node that came before 
+Approach - Tortoise and Hair Algorithm 
+Time complexity - O(n)
+Space complexity - O(1)
